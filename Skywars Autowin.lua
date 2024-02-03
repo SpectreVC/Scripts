@@ -4,7 +4,7 @@ local RunService = game:GetService("RunService")
 
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Parent = game.Players.LocalPlayer.PlayerGui
+screenGui.parent = game:WaitForChild("CoreGui")
 
 
 local Mainframe = Instance.new("Frame")
